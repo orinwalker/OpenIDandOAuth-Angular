@@ -4,7 +4,7 @@ import { AuthService } from '../core/auth-service.component';
 
 @Component({
   selector: 'app-signout-callback',
-  template: `<div></div>`
+  template: `<div>Logging out...</div>`
 })
 
 export class SignoutRedirectCallbackComponent implements OnInit {
