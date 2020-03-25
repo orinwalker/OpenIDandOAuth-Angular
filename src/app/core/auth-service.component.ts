@@ -34,7 +34,9 @@ export class AuthService {
       post_logout_redirect_uri: `${Constants.clientRoot}signout-callback`,
       
       automaticSilentRenew: true,
-      silent_redirect_uri: `${Constants.clientRoot}assets/silent-callback.html`
+      silent_redirect_uri: `${Constants.clientRoot}assets/silent-callback.html`,
+     
+      // NOTE: uncomment this to work with Auth0
       // metadata: {
       //   issuer: `${Constants.stsAuthority}`,
       //   authorization_endpoint: `${Constants.stsAuthority}authorize?audience=projects-api`,
